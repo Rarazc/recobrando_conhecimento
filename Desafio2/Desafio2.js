@@ -61,10 +61,10 @@ do{
 }while (true);
 
 if(pontos >= 100){
-  alert('Parabens você venceu!')
+  alert('Parabens você venceu!');
 }
 else{
-  alert('Que pena! você perdeu!')
+  alert('Que pena! você perdeu!');
 }
 
 
