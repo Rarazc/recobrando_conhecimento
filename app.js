@@ -9,7 +9,9 @@ while (chute !== numeroSecreto){
 
   if (chute === numeroSecreto) {
     alert(`Isso ai!! parabens voce acertou, o numero secreto era ${numeroSecreto}`);
-    alert(`Você acertou em ${tentativas} tentativas`);
+    let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa';
+    alert(`Você acertou em ${tentativas} ${palavraTentativa}`);
+
   } else {
       if (chute < numeroSecreto) {
         alert(`Que pena! tente novamente! o numero é maior que: ${chute}`);
